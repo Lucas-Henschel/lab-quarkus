@@ -5,6 +5,7 @@ sudo docker compose up -d reverse-proxy
 sudo docker compose up -d jaeger
 
 sudo docker compose up -d mongodb opensearch
+
 sudo docker compose up -d graylog
 
 curl -H "Content-Type: application/json" \
